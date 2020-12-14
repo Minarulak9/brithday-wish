@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wait..........</title>
+    <style>
+   .gift_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    a{
+        padding: 15px 20px;
+        font-size: 2rem;
+        border: none;
+        outline: none;
+        background-color: hotpink;
+        animation: btn_animate .5s  infinite alternate;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+     }
+@keyframes btn_animate{
+    to{
+        transform:scale(1.2);
+    }   
+}
+    </style>
+</head>
+<body>
+    <div class="gift_box"><a href="./index.html">Click Me</a></div>
+</body>
+</html>
